@@ -1,0 +1,16 @@
+let num1 = 10;
+let num2 = 5;
+let sum = num1 + num2;           
+let difference = num1 - num2; 
+let product = num1 * num2;      
+let quotient = num1 / num2;     
+let remainder = num1 % num2;    
+let increment = num1++;         
+let decrement = num2--;         
+console.log("Addition: " + sum);
+console.log("Subtraction: " + difference);
+console.log("Multiplication: " + product);
+console.log("Division: " + quotient);
+console.log("Modulus: " + remainder);
+console.log("Increment of num1: " + increment);
+console.log("Decrement of num2: " + decrement);
