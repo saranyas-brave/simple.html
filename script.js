@@ -30,3 +30,25 @@ var e=c++;
 console.log(c);
 console.log(d);
 console.log(e);
+//switch case:
+
+<script>
+    var day=3;
+    switch(day){
+        case 1:
+            console.log("monday");
+            break;
+        case 2:
+            console.log("tuesday");
+            break;
+        case 3:
+            console.log("wednesday");
+            break;
+        case 4:
+            console.log("thursday");
+            break;
+        default:
+            console.log("Invalid day");
+            break;
+
+    }
